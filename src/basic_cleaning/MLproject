@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Input CSV file on wandb
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Output CSV file to save on wandb
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: type of ouput
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Data with outliers and null values removed
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: Minimum accepted price
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: Maximum accepted price
         type: string
 
 
